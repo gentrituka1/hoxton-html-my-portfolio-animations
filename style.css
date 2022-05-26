@@ -108,12 +108,14 @@ b{
   text-align: center;
   color: white;
 
+  animation: arrowDown 1.5s infinite;
 }
 
-.arrow:hover{
-  padding-top: 40px;
+@keyframes arrowDown{
+  50%{
+    transform: translateY(10px);
+  }
 }
-
 
 /* Projects section*/
 
